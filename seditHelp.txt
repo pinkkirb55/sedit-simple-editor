@@ -1,0 +1,31 @@
+SEDIT - Simple Text Editor
+Welcome to sedit! This is a very simple text editor written in Python.
+The name has two meanings: Simple Edit, and Saad Edit, sedit!
+
+-- USE --
+Make sure to execute the program with the name of the file you want to edit in the Bash command (ex: python3 sedit.py test.txt)
+Sedit will check whether the file exists or not, if it doesn't, it will automatically create it.
+You will then be greeted by the ':' prompt. Refer to COMMANDS section for the command you can use.
+
+-- MODES --
+Edit Mode: 
+WARNING: This option deletes the contents of the file. Use only to edit newly created files. 
+Hit ENTER to go to the next line. Keep in mind that you cannot edit that line after you hit ENTER.
+To exit edit mode, simply hit ENTER, then SPACE, then ENTER again in that order.
+If you want to edit a line after you already hit ENTER, use INSERT/APPEND mode
+Insert/Append Mode: 
+Refer to the COMMANDS section for command syntax. Edits an individual line from the file. This option keeps the file intact but
+can only edit one line at a time
+Delete Mode:
+Deletes the chosen line
+
+-- COMMANDS --
+':n' - New file mode. Truncates the file and starts Edit Mode.
+':i x' - Insert/Append mode, the 'x' is the line you want to edit.
+':d x' - Delete mode. The 'x' is the line you want to delete.
+':l' - Prints out the contents of the file
+':h' - Prints out the help file
+':q' - Quit sedit
+
+Enjoy.
+ 
