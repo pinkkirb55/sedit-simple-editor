@@ -1,6 +1,5 @@
 SEDIT - Simple Text Editor
 Welcome to sedit! This is a very simple text editor written in Python.
-The name has two meanings: Simple Edit, and Saad Edit, sedit!
 
 -- USE --
 Make sure to execute the program with the name of the file you want to edit in the Bash command (ex: python3 sedit.py test.txt)
