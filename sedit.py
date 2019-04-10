@@ -1,7 +1,3 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#         WARNING: Also download seditHelp.txt and put it in the same directory as the source.      #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
 from sys import argv
 import os
 from os.path import exists
